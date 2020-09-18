@@ -9,7 +9,7 @@ use pocketmine\utils\TextFormat;
 class Speaker extends PluginBase
 {
 
-    public const PREFIX = TextFormat::AQUA . '* ' . TextFormat::WHITE;
+    public const PREFIX = TextFormat::AQUA . '[ '. TextFormat::WHITE . '확성기 ' . TextFormat::AQUA . '] ' . TextFormat::WHITE;
     public const MONEY = 10000;
 
     function onEnable()
