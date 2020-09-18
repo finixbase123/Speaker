@@ -12,7 +12,7 @@ use onebone\economyapi\EconomyAPI;
 class SpeakerForm implements Form
 {
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return [
             'type' => 'custom_form',
