@@ -17,7 +17,9 @@ class SpeakerForm implements Form
         return [
             'type' => 'custom_form',
             'title' => Speaker::PREFIX, 
-            'content' => ['type' => 'input', 'text' => '내용을 적어주세요.']
+            'content' => [
+                ['type' => 'input', 'text' => '내용을 적어주세요.']
+                ]
         ];
     }
 
